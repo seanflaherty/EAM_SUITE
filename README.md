@@ -1,0 +1,1 @@
+This is a set of scripts and an example CSV file created by @neetintel on X who manages www.hfgcs.com.
