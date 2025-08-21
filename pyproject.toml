@@ -28,6 +28,7 @@ dependencies = [
     "pytz==2025.2",
     "six==1.17.0",
     "tomlkit==0.13.3",
+    "types-pyperclip>=1.9.0.20250801",
     "types-pytz==2025.2.0.20250809",
     "tzdata==2025.2",
     "uv==0.8.12",
