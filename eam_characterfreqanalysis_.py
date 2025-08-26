@@ -9,9 +9,20 @@ import numpy as np
 
 
 class CharacterAnalyzer:
-    """A comprehensive character frequency analyzer for text data."""
+    """
+    A comprehensive character frequency analyzer for text data.
+
+    :param csv_file_path
+    :type csv_file_path: str
+    :param df
+    :type df: Optional[pd.DataFrame] or none
+    :param processed_messages
+    :type processed_message: List[str]
+
+    """
 
     def __init__(self, file_path: str):
+        """Constructor method."""
         self.csv_file_path = file_path
         self.df: Optional[pd.DataFrame] = None
         self.processed_messages: List[str] = []
